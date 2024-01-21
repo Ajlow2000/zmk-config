@@ -15,6 +15,7 @@
 #define QWE 0
 #define SYM 1
 #define NAV 2
+#define NUM 3
 
 / {
     keymap {
@@ -25,7 +26,7 @@
             &kp TAB       &kp Q &kp W &kp E &kp R &kp T                                                        &kp Y &kp U  &kp I     &kp O   &kp P    &kp TAB
             &mt LCTRL ESC &kp A &kp S &kp D &kp F &kp G                                                        &kp H &kp J  &kp K     &kp L   &kp SEMI &mt RCTRL ENTER
             &kp LSHFT     &kp Z &kp X &kp C &kp V &kp B &kp LCTRL &kp F5                    &kp F11 &kp RCTRL  &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RSHFT
-                                  &kp C_MUTE &kp LALT &kp SPACE &mo SYM &kp LGUI            &kp TAB &mo NAV &kp SPACE &kp BSPC &none
+                                  &kp C_MUTE &kp LALT &kp SPACE &mo SYM &kp LGUI            &kp TAB &mo NAV &lt NUM SPACE &kp BSPC &none
             >;
 
            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -53,15 +54,15 @@
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 
-//        numbers_layer {
-//            bindings = 
-//            &kp trans &kp none &kp none &kp none &kp none &kp none                                                     &kp none &kp none &kp none &kp none &kp none &kp trans
-//            &kp trans &kp none &kp none &kp none &kp none &kp none                                                     &kp none &kp none &kp none &kp none &kp none &kp trans
-//            &kp trans &kp none &kp none &kp none &kp none &kp none &kp trans &kp trans             &kp trans &kp trans &kp none &kp none &kp none &kp none &kp none &kp trans
-//                                     &kp trans &kp trans &kp trans &kp trans &kp trans             &kp trans &kp trans &kp trans &kp trans &trans
-//            >;
-//
-//           sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
-//        };
+        numbers_layer {
+            bindings = 
+            &kp trans &kp none &kp none &kp none &kp none &kp none                                                     &kp none &kp none &kp none &kp none &kp none &kp trans
+            &kp trans &kp none &kp none &kp none &kp none &kp none                                                     &kp none &kp none &kp none &kp none &kp none &kp trans
+            &kp trans &kp none &kp none &kp none &kp none &kp none &kp trans &kp trans             &kp trans &kp trans &kp none &kp none &kp none &kp none &kp none &kp trans
+                                     &kp trans &kp trans &kp trans &kp trans &kp trans             &kp trans &kp trans &kp trans &kp trans &trans
+            >;
+
+           sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+        };
     };
 };
