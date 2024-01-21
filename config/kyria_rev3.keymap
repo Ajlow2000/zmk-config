@@ -14,7 +14,7 @@
 
 /* Mod Taps */
 #define CTL_ESC &mt LCTRL ESC
-#define CTL_ENT &mt RCTRL
+#define CTL_ENT &mt RCTRL ENTER
 
 / {
     keymap {
