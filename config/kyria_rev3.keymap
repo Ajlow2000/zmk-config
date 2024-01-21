@@ -28,16 +28,17 @@
 
            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
-        // navigation_layer {
-        //     bindings = <
-        //     &trans &trans     &trans       &trans       &trans       &trans                          &trans &trans &trans &trans &trans &trans
-        //     &trans &trans     &trans       &trans       &trans       &none                           &trans &trans &trans &trans &trans &trans
-        //     &trans &kp BT_CLR &kp BT_SEL 0 &kp BT_SEL 1 &kp BT_SEL 2 &kp BT_SEL 3        &trans &trans &trans &trans &trans &trans &trans &trans
-        //                          &trans &trans &trans &trans &trans                      &trans &trans &trans &trans &trans
-        //     >;
 
-        //     sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
-        // };
+        symbols_layer {
+            bindings = <
+            &trans &kp BSLH &kp SQT &kp DQT &kp PRCNT &kp QMARK                          &trans &trans &trans &trans &trans &trans
+            &trans &kp CARET &kp EQUAL &kp UNDER &kp DOLLAR &kp ASTRK                    &trans &trans &trans &trans &trans &trans
+            &trans &kp LT &kp PIPE &kp MINUS &kp GT &kp FSLH                &trans &trans &trans &trans &trans &trans &trans &trans
+                                 &trans &trans &trans &trans &trans         &trans &trans &trans &trans &trans
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+        };
 
         function_layer {
             bindings = <
