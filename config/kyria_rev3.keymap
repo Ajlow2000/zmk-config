@@ -54,15 +54,15 @@
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 
-        numbers_layer {
-            bindings = 
-            &kp trans &kp none &kp none &kp none &kp none &kp none                                                     &kp none &kp none &kp none &kp none &kp none &kp trans
-            &kp trans &kp none &kp none &kp none &kp none &kp none                                                     &kp none &kp none &kp none &kp none &kp none &kp trans
-            &kp trans &kp none &kp none &kp none &kp none &kp none &kp trans &kp trans             &kp trans &kp trans &kp none &kp none &kp none &kp none &kp none &kp trans
-                                     &kp trans &kp trans &kp trans &kp trans &kp trans             &kp trans &kp trans &kp trans &kp trans &trans
-            >;
-
-           sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
-        };
+//        numbers_layer {
+//            bindings = 
+//            &kp trans &kp none &kp none &kp none &kp none &kp none                                                     &kp none &kp none &kp none &kp none &kp none &kp trans
+//            &kp trans &kp none &kp none &kp none &kp none &kp none                                                     &kp none &kp none &kp none &kp none &kp none &kp trans
+//            &kp trans &kp none &kp none &kp none &kp none &kp none &kp trans &kp trans             &kp trans &kp trans &kp none &kp none &kp none &kp none &kp none &kp trans
+//                                     &kp trans &kp trans &kp trans &kp trans &kp trans             &kp trans &kp trans &kp trans &kp trans &trans
+//            >;
+//
+//           sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+//        };
     };
 };
