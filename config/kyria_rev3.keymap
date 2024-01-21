@@ -26,7 +26,7 @@
             &kp TAB       &kp Q &kp W &kp E &kp R &kp T                                                        &kp Y &kp U  &kp I     &kp O   &kp P    &kp TAB
             &mt LCTRL ESC &kp A &kp S &kp D &kp F &kp G                                                        &kp H &kp J  &kp K     &kp L   &kp SEMI &mt RCTRL ENTER
             &kp LSHFT     &kp Z &kp X &kp C &kp V &kp B &kp LCTRL &kp F5                    &kp F11 &kp RCTRL  &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RSHFT
-                                  &kp C_MUTE &kp LALT &kp SPACE &mo SYM &kp LGUI            &kp TAB &mo NAV &lt NUM SPACE &kp BSPC &none
+                                  &kp C_MUTE &kp LALT &kp SPACE &mo SYM &kp LGUI            &kp TAB &mo NAV &mo NUM &kp BSPC &none
             >;
 
            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -55,11 +55,11 @@
         };
 
         numbers_layer {
-            bindings = <
+            bindings = 
             &kp trans &kp F1 &kp F4 &kp F7 &kp F10 &kp none                                                     &kp FSLH  &kp 7  &kp 8 &kp 9 &kp MINUS &kp trans
             &kp trans &kp F2 &kp F5 &kp F8 &kp F11 &kp none                                                     &kp COLON &kp 4  &kp 5 &kp 6 &kp PLUS  &kp trans
             &kp trans &kp F3 &kp F6 &kp F9 &kp F12 &kp none &kp trans &kp trans             &kp trans &kp trans &kp DOT   &kp 1  &kp 2 &kp 3 &kp 0     &kp trans
-                                 &kp none &kp none &kp none &kp none &kp none               &kp trans &kp trans &kp trans &kp trans &trans
+                              &kp trans &kp trans &kp trans &kp trans &kp trans             &kp trans &kp trans &kp trans &kp trans &trans
             >;
 
            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
