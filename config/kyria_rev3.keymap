@@ -12,6 +12,10 @@
     tapping-term-ms = <200>;
 };
 
+&lt {
+    tapping-term-ms = <200>;
+};
+
 #define QWE 0
 #define SYM 1
 #define NAV 2
