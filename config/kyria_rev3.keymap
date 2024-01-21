@@ -56,10 +56,10 @@
 
         numbers_layer {
             bindings = 
-            &kp trans &kp F1 &kp F4 &kp F7 &kp F10 &kp none                                                     &kp FSLH  &kp 7  &kp 8 &kp 9 &kp MINUS &kp trans
-            &kp trans &kp F2 &kp F5 &kp F8 &kp F11 &kp none                                                     &kp COLON &kp 4  &kp 5 &kp 6 &kp PLUS  &kp trans
-            &kp trans &kp F3 &kp F6 &kp F9 &kp F12 &kp none &kp trans &kp trans             &kp trans &kp trans &kp DOT   &kp 1  &kp 2 &kp 3 &kp 0     &kp trans
-                              &kp trans &kp trans &kp trans &kp trans &kp trans             &kp trans &kp trans &kp trans &kp trans &trans
+            &kp trans &kp none &kp none &kp none &kp none &kp none                                                     &kp none &kp none &kp none &kp none &kp none &kp trans
+            &kp trans &kp none &kp none &kp none &kp none &kp none                                                     &kp none &kp none &kp none &kp none &kp none &kp trans
+            &kp trans &kp none &kp none &kp none &kp none &kp none &kp trans &kp trans             &kp trans &kp trans &kp none &kp none &kp none &kp none &kp none &kp trans
+                                     &kp trans &kp trans &kp trans &kp trans &kp trans             &kp trans &kp trans &kp trans &kp trans &trans
             >;
 
            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
