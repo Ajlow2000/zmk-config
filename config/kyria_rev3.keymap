@@ -63,10 +63,10 @@
 
         symbols_layer {
             bindings = <
-            &trans &kp BSLH  &kp SQT   &kp DQT   &kp PRCNT  &kp QMARK                                   &kp EXCL &kp RBKT &kp LBKT &kp GRAVE &kp COLON &trans
-            &trans &kp CARET &kp EQUAL &kp UNDER &kp DOLLAR &kp ASTRK                                   &kp AT   &kp RBRC &kp LBRC &kp TILDE &kp SEMI  &trans
-            &trans &kp LT    &kp PIPE  &kp MINUS &kp GT     &kp FSLH  &trans &trans    &trans   &trans  &kp PLUS &kp RPAR &kp LPAR &kp HASH  &kp AMPS  &trans
-                                       &trans    &trans     &trans    &trans &trans    &kp COMM &kp DOT &trans &kp DEL &trans
+            &trans &kp BSLH  &kp SQT   &kp DQT   &kp PRCNT  &kp QMARK                                    &kp EXCL &kp RBKT &kp LBKT &kp GRAVE &kp COLON &trans
+            &trans &kp CARET &kp EQUAL &kp UNDER &kp DOLLAR &kp ASTRK                                    &kp AT   &kp RBRC &kp LBRC &kp TILDE &kp SEMI  &trans
+            &trans &kp LT    &kp PIPE  &kp MINUS &kp GT     &kp FSLH  &trans &trans    &trans    &trans  &kp PLUS &kp RPAR &kp LPAR &kp HASH  &kp AMPS  &trans
+                                       &trans    &trans     &trans    &trans &trans    &kp COMMA &kp DOT &trans &kp DEL &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
